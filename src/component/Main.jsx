@@ -2,7 +2,7 @@ import React from 'react'
 
 function Main() {
   return (
-    <main className="bg-gray-800 h-full sm:py-5 bg-[url('./images/react-icon-large.png')] bg-repeat-y bg-right">
+    <main className="bg-gray-800 h-full sm:py-5 bg-[url('/dist/assets/images/react-icon-large.png')] bg-repeat-y bg-right">
         <div className='max-w-md w-9/12 mx-auto text-gray-200 pb-10  sm:max-w-3xl'>
             <h1 className='py-6 sm:text-4xl font-semibold text-3xl mb-5'>Fun Facts about React</h1>
             <ul className='list-square list-inside text-lg marker:text-blue-500 leading-10 sm:tracking-wide sm:font-black '>
